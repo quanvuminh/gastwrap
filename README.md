@@ -30,7 +30,7 @@
 
 ```bash
 \$ cd run/
-\$ ./vc-asterisk-web-new -prefix=hapulico -listen=127.0.0.1:8080
+\$ ./gastwrap -prefix=hapulico -listen=127.0.0.1:8080
 ```
 
 ## Authentication
@@ -86,10 +86,7 @@ Creat a new user.
     "password": "newsecret",
     "context": "default",
     "phonemodel": "grandstream",
-    "phonemac": "000000000000",
-    "calloutcode": "0",
-    "calloutpriv": "0",
-    "record": "false"
+    "phonemac": "000000000000"
 }
 ```
 
@@ -130,10 +127,7 @@ Get user infos
     "password": "newsecret",
     "context": "default",
     "phonemodel": "grandstream",
-    "phonemac": "000000000000",
-    "calloutcode": "0",
-    "calloutpriv": "0",
-    "record": "false"
+    "phonemac": "000000000000"
 }
 ```
 
@@ -155,10 +149,7 @@ Update user infos
     "password": "newsecret",
     "context": "",
     "phonemodel": "",
-    "phonemac": "",
-    "calloutcode": "",
-    "calloutpriv": "",
-    "record": "newrecord"
+    "phonemac": ""
 }
 ```
 
