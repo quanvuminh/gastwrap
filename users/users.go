@@ -3,8 +3,9 @@ package users
 import (
 	"errors"
 	"os"
-	"quanvm/gastwrap/ari"
 	"text/template"
+
+	"github.com/quanvuminh/gastwrap/ari"
 
 	scribble "github.com/nanobox-io/golang-scribble"
 )
