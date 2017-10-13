@@ -1,0 +1,15 @@
+[{{.UserID}}](prov-{{.PhoneModel}})
+endpoint = {{.UserID}}
+MAC = {{.PhoneMac}}
+
+[{{.UserID}}](endp-udp,endp-nat)
+aors = {{.UserID}}
+auth = {{.UserID}}
+callerid = {{.CallerID}} <{{.UserID}}>
+context = {{.Context}}
+
+[{{.UserID}}](auth-usrpass)
+username = {{.UserID}}
+password = {{.Password}}
+
+[{{.UserID}}](aor-single)
